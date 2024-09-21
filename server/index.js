@@ -3,6 +3,7 @@ import router from "./routes/routes.js";
 import cors from 'cors';
 import DBconnection from "./database/db.js";
 
+
 const app = express();
 
 app.use(cors());
