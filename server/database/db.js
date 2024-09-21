@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const DBconnection = async () => {
-    const MONGO_URI = 'mongodb+srv://anurag:anurag31@cluster0.btpm7pk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+    const MONGO_URI = ''
     try{
        await mongoose.connect(MONGO_URI);
        console.log('Database connected successfully');
