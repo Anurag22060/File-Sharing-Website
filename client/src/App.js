@@ -1,3 +1,5 @@
+"ise client"
+
 import {useRef,useState,useEffect} from "react";
 import './App.css';
 import { uploadFile } from "./services/api";
